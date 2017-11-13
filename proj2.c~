@@ -1,0 +1,8 @@
+struct ancestry{
+  pid_t ancestors[10];
+  pid_t siblings[100];
+  pid_t children[100];
+};
+
+long cs3013_syscall2(unsigned short *target_pid, struct ancestry *response) {
+}
